@@ -158,11 +158,11 @@ const Schedule = () => {
                   key={file.url}
                   className="relative group cursor-pointer"
                   onClick={() =>
-                    setSelectedImage(`http://localhost:3100${file.url}`)
+                    setSelectedImage(`https://cdpc-backend.onrender.com${file.url}`)
                   }
                 >
                   <img
-                    src={`http://localhost:3100${file.url}`}
+                    src={`https://cdpc-backend.onrender.com${file.url}`}
                     alt={file.name}
                     className="w-full h-auto object-fit border rounded-lg"
                   />

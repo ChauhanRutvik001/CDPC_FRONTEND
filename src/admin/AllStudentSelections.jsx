@@ -438,7 +438,7 @@ const AllStudentSelections = () => {
                               <img
                                 src={
                                   student?.studentId?.profile?.avatar
-                                    ? `http://localhost:3100/api/v1/user/profile/getProfilePicByAdmin/${student?.studentId?.profile?.avatar}`
+                                    ? `https://cdpc-backend.onrender.com/api/v1/user/profile/getProfilePicByAdmin/${student?.studentId?.profile?.avatar}`
                                     : defaultImage
                                 }
                                 alt="Profile"
